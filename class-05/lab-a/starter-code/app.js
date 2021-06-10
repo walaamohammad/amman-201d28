@@ -9,13 +9,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  let total = a+b;
-  return [total, `The sum of ${a} and ${b} is ${total}.`];
+    let total = a + b;
+    return [total, `The sum of ${a} and ${b} is ${total}.`];
 }
-// console.log( sum(4, 11));
+// console.log(sum(4, 11));
 
 // Here is the test for sum(); uncomment it to run it
-testSum(4, 7);
+ testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -29,11 +29,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
+    let mul = a * b;
+    return [mul, `the multiple of ${a} and ${b} is to ${mul}.`];
 
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+//testMultiply(5, 9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -49,12 +51,13 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
+// function sumAndMultiply(a, b, c) { //eslint-disable-line
+//   let sum = a + b + c;
+//   let total = a * b * c;
+//   return [sum, total, `${a} and ${b} and ${c}sum to ${sum}.` , `the multiple of ${a} and ${b} and ${c} is ${total}.`];
+// }
 
-}
 
-// Here is the test for sumAndMultiply(); uncomment it to run it
-// testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -69,11 +72,11 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-let testArray = [2, 3, 4]; //eslint-disable-line
+// let testArray = [2, 3, 4]; //eslint-disable-line
 
-function sumArray(sumArr) { //eslint-disable-line
+// function sumArray(sumArr) { //eslint-disable-line
 
-}
+// }
 
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -92,9 +95,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(multArr) { //eslint-disable-line
+// function multiplyArray(multArr) { //eslint-disable-line
 
-}
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
@@ -118,11 +121,11 @@ This function should be dynamic, accepting an array of any length.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.*/
 
 // Write your code here
-let testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+// let testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
 
-function multiplyAnyArray(dynamicArray) { //eslint-disable-line
+// function multiplyAnyArray(dynamicArray) { //eslint-disable-line
 
-}
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
